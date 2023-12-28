@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "cairo-play";
+    src: url("../fonts/CairoPlay.ttf");
+}
+@font-face {
+    font-family: "redexpro";
+    src: url("../fonts/redexpro.ttf");
+}
+@font-face {
+    font-family: "changa";
+    src: url("../fonts/Changa.ttf");
+}
+body {
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: linear-gradient(to bottom right, #94c0ff, white);
+    font-family: "redexpro";
+
+}
+.site-title{
+    font-family:"cairo-play" ;
+}
+.site-title h3{
+    font-family: "changa";
+}
