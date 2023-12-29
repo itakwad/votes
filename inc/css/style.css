@@ -24,3 +24,7 @@ body {
 .site-title h3{
     font-family: "changa";
 }
+.err-txt {
+    font-size: 12px !important;
+    color: rgb(192, 33, 33);
+}
