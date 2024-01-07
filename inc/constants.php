@@ -5,7 +5,8 @@ const NAME_ERROR_INVALID_MSG = "يُسمح فقط بالأحرف والمساف�
 const EMAIL_ERROR_KEY = "email_error_key";
 const EMAIL_ERROR_INVALID_MSG = "حقل البريد غير صالح";
 const EMAIL_ERROR_EXISTS_MSG = "حقل البريد موجود بالفعل";
-
+const EMAIL_ERROR_NOT_FOUND_MSG = "بريد غير مسجل";
+const LOGIN_ERROR_INVALID_MSG="بيانات خاطئة";
 
 const PASSWORD_ERROR_KEY = "password_error_key";
 const PASSWORD_CONFIRMATION_ERROR_KEY ="password_confirmation_error_key";

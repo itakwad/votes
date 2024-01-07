@@ -7,7 +7,13 @@ if (isset($_SESSION['user_id'])) {
   exit;
 }
 
+$errors=isset($_SESSION['errors'])?$_SESSION['errors']:[];
+if(count($errors)>0){
+  $msg=reset($errors);
+  echo "<script> alert('$msg'); </script>";
+}
 
+$_SESSION['errors']=[];
 ?>
 
 
@@ -40,12 +46,12 @@ if (isset($_SESSION['user_id'])) {
             <form action="auth.php" method="post" class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
                 <div class="form-floating mb-3">
                     <input type="email" name="email" class="form-control"
-                           id="email" placeholder="name@example.com" />
+                           id="email" placeholder="name@example.com" required/>
                     <label for="email">البريد الاليكتروني</label>
                 </div>
                 <div class="form-floating mb-3">
                     <input type="password" name="password" class="form-control"
-                     id="password" placeholder="password"/>
+                     id="password" placeholder="password" required/>
                     <label for="password">كلمة السر</label>
                 </div>
 
