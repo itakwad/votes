@@ -28,3 +28,26 @@ body {
     font-size: 12px !important;
     color: rgb(192, 33, 33);
 }
+
+
+.side-nav .nav-item{
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 2px;
+    background: #666666;
+
+}
+
+.side-nav .nav-item:hover{
+    
+    background: #999696;
+
+}
+
+
+
+.side-nav .nav-item a,.side-nav .nav-item i{
+  font-size: 18px;
+  color: white;
+
+}
