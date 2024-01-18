@@ -72,7 +72,7 @@ $_SESSION['errors'] = [];
                 </ul>
 
             </div>
-            <div class="col m-2 pt-2 bg-light rounded page " style="height: 100vh;">
+            <div class="col m-2 pt-2 bg-light rounded page " style="height: 100vh;overflow-y: scroll;">
                 <?php
                 if(file_exists(__DIR__ ."/pages/$page.php")){
                     include_once "pages/$page.php" ;

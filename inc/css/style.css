@@ -51,3 +51,19 @@ body {
   color: white;
 
 }
+.vote-block{
+    border: 1px solid #94c0ff;
+    
+    border-radius: 15px;
+    padding: 19px;
+    background: #fdfdfd;
+    line-height: 39px;
+    box-shadow: 1px 1px 10px 3px #dfdfdf;
+}
+.custom-horizontal-line {
+    width: 55%; /* عرض الخط */
+    height: 4px; /* سمك الخط */
+    background-color: #2d415d; /* لون الخط */
+    margin: 20px auto; /* المسافة بين الخط والعناصر الأخرى */
+    border: none; /* إزالة الحدود */
+  }
