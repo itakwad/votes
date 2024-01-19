@@ -67,3 +67,8 @@ body {
     margin: 20px auto; /* المسافة بين الخط والعناصر الأخرى */
     border: none; /* إزالة الحدود */
   }
+
+
+  .active_link{
+    background: #94c0ff !important;
+  }

@@ -18,7 +18,7 @@ if(isset($_GET['action'])){
     VALUES ('$user_id','$vote_id','$vote_choice')";
     try{
         $conn->query($sql);
-        header("Location: home.php?page=index");
+        header("Location: home.php?page=index&&vote_page=".$_GET['vote_page']);
     }catch(Exception $e){
         echo $e->getMessage();
     }
